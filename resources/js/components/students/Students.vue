@@ -88,8 +88,12 @@ export default {
             axios
                 .get("http://127.0.0.1:8000/api/students-list")
                 .then(response => {
-                    this.newstudent = response.data.data;
-                });
+                    //this.newstudent = response.data.data;
+                    console.log(response)
+                })
+                .catch(err => {
+                  console.log(err)
+                })
         },
         created() {
             this.loadStudents();
