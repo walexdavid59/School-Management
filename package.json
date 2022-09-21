@@ -34,6 +34,6 @@
         "vform": "^1.0.1",
         "vue-axios": "^2.1.5",
         "vue-router": "^3.1.6",
-        "vuetify": "^2.2.21"
+        "vuetify": "^2.6.10"
     }
 }
